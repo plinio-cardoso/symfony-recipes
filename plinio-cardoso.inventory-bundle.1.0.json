@@ -16,8 +16,8 @@
                     "contents": [
                         "inventory:",
                         "    out_of_stock_notification:",
-                        "        from: 'plynyo@gmail.com'",
-                        "        to: 'plynyo@gmail.com'",
+                        "        from: 'system@gmail.com'",
+                        "        to: 'admin@gmail.com'",
                         "        subject: 'Test'",
                         ""
                     ],
