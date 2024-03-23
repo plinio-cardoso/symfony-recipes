@@ -1,0 +1,37 @@
+{
+    "manifests": {
+        "plinio-cardoso/inventory-bundle": {
+            "manifest": {
+                "bundles": {
+                    "PlinioCardoso\\InventoryBundle\\InventoryBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "files": {
+                "config/packages/inventory.yaml": {
+                    "contents": [
+                        "inventory:",
+                        "    from: 'plynyo@gmail.com'",
+                        "    to: 'plynyo@gmail.com'",
+                        "    subject: 'Test'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/inventory.yaml": {
+                    "contents": [
+                        "inventory:",
+                        "    resource: '@InventoryBundle/config/routing.yml'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "f147758b0d2cefafd721ce1c4a2dfea9420f7b4b"
+        }
+    }
+}
