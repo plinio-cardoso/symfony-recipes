@@ -6,7 +6,10 @@
                     "PlinioCardoso\\InventoryBundle\\InventoryBundle": [
                         "all"
                     ]
-                }
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
             },
             "files": {
                 "config/packages/inventory.yaml": {
