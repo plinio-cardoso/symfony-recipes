@@ -15,9 +15,10 @@
                 "config/packages/inventory.yaml": {
                     "contents": [
                         "inventory:",
-                        "    from: 'plynyo@gmail.com'",
-                        "    to: 'plynyo@gmail.com'",
-                        "    subject: 'Test'",
+                        "    out_of_stock_notification:",
+                        "        from: 'plynyo@gmail.com'",
+                        "        to: 'plynyo@gmail.com'",
+                        "        subject: 'Test'",
                         ""
                     ],
                     "executable": false
