@@ -11,27 +11,6 @@
                     "config/": "%CONFIG_DIR%/"
                 }
             },
-            "files": {
-                "config/packages/inventory.yaml": {
-                    "contents": [
-                        "inventory:",
-                        "    out_of_stock_notification:",
-                        "        from: 'system@gmail.com'",
-                        "        to: 'admin@gmail.com'",
-                        "        subject: 'Test'",
-                        ""
-                    ],
-                    "executable": false
-                },
-                "config/routes/inventory.yaml": {
-                    "contents": [
-                        "inventory:",
-                        "    resource: '@InventoryBundle/config/routing.yml'",
-                        ""
-                    ],
-                    "executable": false
-                }
-            },
             "ref": "f147758b0d2cefafd721ce1c4a2dfea9420f7b4b"
         }
     }
