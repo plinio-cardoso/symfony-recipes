@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "plinio-cardoso/inventory-bundle": [
+          "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/plinio-cardoso/symfony-recipes",
+        "origin_template": "{package}:{version}@github.com/plinio-cardoso/symfony-recipes:main",
+        "recipe_template": "https://api.github.com/repos/plinio-cardoso/symfony-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
