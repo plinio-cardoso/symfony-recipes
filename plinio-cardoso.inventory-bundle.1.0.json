@@ -9,7 +9,7 @@
                 },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/"
-                },
+                }
             },
             "files": {
                 "config/packages/inventory.yaml": {
