@@ -18,7 +18,7 @@
                         "    out_of_stock_notification:",
                         "        from: 'system@gmail.com'",
                         "        to: 'admin@gmail.com'",
-                        "        subject: 'Test'",
+                        "        subject: 'Product out of stock alert!!!'",
                         ""
                     ],
                     "executable": false
